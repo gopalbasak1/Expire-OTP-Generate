@@ -21,4 +21,21 @@ body{
     box-shadow: 1px 1px 1px 1px teal;
     border: none;
     border-radius: 5px;
+};
+
+.ptp-validate-message{
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.otp-validate-message.success{
+    color: green;
+    border: 1px solid green;
+    padding: 2px;
+}
+
+.otp-validate-message.fail{
+    color: red;
+    border: 1px solid red;
+    padding: 2px;
 }
